@@ -1,0 +1,20 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <parent>
+        <artifactId>App</artifactId>
+        <groupId>ru.netology</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>service</artifactId>
+    <name>service Tapestry 5 Application</name>
+    <packaging>jar</packaging>
+<dependencies>
+    <dependency>
+        <groupId>ru.netology</groupId>
+        <artifactId>db</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <scope>compile</scope>
+    </dependency>
+</dependencies>
+</project>
